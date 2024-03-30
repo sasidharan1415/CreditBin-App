@@ -1,0 +1,91 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.NoMode">
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:backgroundTint">@color/primaryTextColor</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/button_background_blue</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinnerHintText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <string name="CreditBin">CreditBin✨</string>
+    <string name="name">First name\n</string>
+    <string name="last_name">Last name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password\n</string>
+    <string name="already_have_an_account">Already have an account? Log in</string>
+    <string name="use_other_methods">Sign in with other ways</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_user">Don\'t have an Account? Sing in</string>
+    <string name="register">Register</string>
+    <string name="edit_profile">Profile</string>
+    <string name="sasidharan">Sasidharan</string>
+    <string name="_9245547046">9245547046</string>
+    <string name="alterego_gmail_com">alterego@gmail.com</string>
+    <string name="update_in_progress">Update in progress</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="bio">Bio</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="balance">Balance</string>
+    <string name="search">Search for anything....</string>
+    <string name="discover">Discover</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="explore_in_map">Explore in Map🔍</string>
+    <string name="live_bin_location">Live Bin location</string>
+    <string name="rewards">Rewards</string>
+    <string name="leaderboard">leaderboard</string>
+    <string name="transfer">Transfer</string>
+    <string name="_37">37</string>
+    <string name="scan_and_earn">Scan and Earn</string>
+    <string name="welcome_sasi">Welcome Sasi!</string>
+    <string name="are_you_ready_to_redeem_your_rewards">Are you ready to redeem your rewards</string>
+    <string name="tap_here_to_know_more">Tap here to know more</string>
+    <string name="bin_fill_level">Bin fill level</string>
+    <string name="_40">40%</string>
+    <string name="home1">Home</string>
+    <string name="scan">Scan</string>
+    <string name="more">More</string>
+    <string name="sasi">Sasi✨</string>
+</resources>
